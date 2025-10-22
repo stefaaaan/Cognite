@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "poetry env use python"
+version = "poetry install --sync"
+description = "poetry add cognite-toolkit@0.6.53"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "poetry run cdf modules init"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
